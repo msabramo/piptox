@@ -17,7 +17,9 @@ def do_pip_download(repo_url, options):
     if options.verbose:
         print("Command: %r" % cmd)
 
-    os.system(cmd)
+    exit_code = os.system(cmd)
+    if not exit_code == 0:
+        raise RuntimeError('pip download failed for repo: %s' % repo_url)
 
 
 def main():
