@@ -36,9 +36,10 @@ setup(name='piptox',
       author_email=email,
       url='http://github.com/msabramo/anyserializer',
       license='BSD',
-      packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+      py_modules=['piptox'],
       zip_safe=False,
       platforms=["any"],
+      test_suite='tests',
       entry_points={'console_scripts': ['piptox = piptox:main']},
       **extra
 )
