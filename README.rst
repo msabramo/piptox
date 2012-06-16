@@ -1,6 +1,9 @@
 piptox
 ======
 
+.. image:: https://secure.travis-ci.org/msabramo/piptox.png?branch=master
+   :target: http://travis-ci.org/msabramo/piptox
+
 Sample usage::
 
     piptox git+https://github.com/msabramo/piptox.git    # Yes, you can run piptox on its own repo :-)
