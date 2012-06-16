@@ -3,7 +3,7 @@ piptox
 
 Sample usage::
 
-    piptox git+https://github.com/zbyte64/django-dockit.git
+    piptox git+https://github.com/msabramo/piptox.git    # Yes, you can run piptox on its own repo :-)
 
 This downloads from the above URL into a temporary directory using
 `pip <http://www.pip-installer.org/>`_ and then runs
